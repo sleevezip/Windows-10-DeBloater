@@ -2,6 +2,7 @@ get-appxpackage *AdobeSystemsIncorporated.AdobePhotoshopExpress* | Remove-AppxPa
 get-appxpackage Microsoft.bingfinance | remove-appxpackage
 get-appxpackage Microsoft.bingnews | remove-appxpackage
 get-appxpackage Microsoft.Getstarted | remove-appxpackage
+get-appxpackage Microsoft.Gethelp | remove-appxpackage
 get-appxpackage 3dbuilder | remove-appxpackage
 Get-AppxPackage drawboardpdf | Remove-AppxPackage
 Get-AppxPackage freshpaint | Remove-AppxPackage
