@@ -2,5 +2,5 @@ x=msgbox("You must restart your computer to finish the process. Restart in 5 min
 If x = vbNo Then Wscript.Quit(0)
 If x = VbYes Then
 Set WshShell = CreateObject("WScript.Shell")
-X = WshShell.run("shutdown.exe -r -t 500")
+X = WshShell.run("shutdown.exe -r")
 End If
