@@ -42,6 +42,8 @@ Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage
 Get-AppxPackage king.com.CandyCrushSaga | Remove-AppxPackage
 Get-AppxPackage king.com.CandyCrushSodaSaga | Remove-AppxPackage
 Get-AppxPackage king.com.* | Remove-AppxPackage
+Get-AppxPackage *king.com.* | Remove-AppxPackage
 Get-AppxPackage A278AB0D.MarchofEmpires | Remove-AppxPackage
 Get-AppxPackage A278AB0D.DisneyMagicKingdoms | Remove-AppxPackage
+Get-AppxPackage *HiddenCityMysteryofShadows* | Remove-AppxPackage
 Get-AppxPackage DolbyLaboratories.DolbyAccess | Remove-AppxPackage
