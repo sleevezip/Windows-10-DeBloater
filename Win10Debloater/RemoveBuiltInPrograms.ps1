@@ -47,3 +47,4 @@ Get-AppxPackage A278AB0D.MarchofEmpires | Remove-AppxPackage
 Get-AppxPackage A278AB0D.DisneyMagicKingdoms | Remove-AppxPackage
 Get-AppxPackage *HiddenCityMysteryofShadows* | Remove-AppxPackage
 Get-AppxPackage DolbyLaboratories.DolbyAccess | Remove-AppxPackage
+Get-AppxPackage *Minecraft* | Remove-AppxPackage
