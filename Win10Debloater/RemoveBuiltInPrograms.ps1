@@ -1,4 +1,3 @@
-get-appxpackage *AdobeSystemsIncorporated.AdobePhotoshopExpress* | Remove-AppxPackage
 get-appxpackage Microsoft.bingfinance | remove-appxpackage
 get-appxpackage Microsoft.bingnews | remove-appxpackage
 get-appxpackage Microsoft.Getstarted | remove-appxpackage
