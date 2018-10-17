@@ -12,6 +12,7 @@ Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
 Get-AppxPackage Microsoft.Messaging | Remove-AppxPackage
 Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage
 Get-AppxPackage Microsoft.MicrosoftOfficeHub | Remove-AppxPackage
+Get-AppxPackage Microsoft.Office.* | Remove-AppxPackage
 Get-AppxPackage Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage
 Get-AppxPackage Microsoft.Music.Preview | Remove-AppxPackage
 Get-AppxPackage Microsoft.Office.OneNote | Remove-AppxPackage
