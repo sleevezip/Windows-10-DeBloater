@@ -37,3 +37,11 @@ Get-AppxPackage Microsoft.XboxIdentityProvider | Remove-AppxPackage
 Get-AppxPackage Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage
+
+Write-Output "Remove OneDrive"
+if (Test-Path "$env:systemroot\System32\OneDriveSetup.exe") {
+    & "$env:systemroot\System32\OneDriveSetup.exe" /uninstall
+}
+if (Test-Path "$env:systemroot\SysWOW64\OneDriveSetup.exe") {
+    & "$env:systemroot\SysWOW64\OneDriveSetup.exe" /uninstall
+}
