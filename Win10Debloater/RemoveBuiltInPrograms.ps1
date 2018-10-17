@@ -8,6 +8,7 @@ Get-AppxPackage freshpaint | Remove-AppxPackage
 Get-AppxPackage nytcrossword | Remove-AppxPackage
 Get-AppxPackage SurfaceHub | Remove-AppxPackage
 Get-AppxPackage flipboard | Remove-AppxPackage
+Get-AppxPackage *LinkedIn* | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
 Get-AppxPackage Microsoft.Messaging | Remove-AppxPackage
 Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage
