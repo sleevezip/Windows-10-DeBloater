@@ -47,3 +47,6 @@ if (Test-Path "$env:systemroot\System32\OneDriveSetup.exe") {
 if (Test-Path "$env:systemroot\SysWOW64\OneDriveSetup.exe") {
     & "$env:systemroot\SysWOW64\OneDriveSetup.exe" /uninstall
 }
+
+Write-Output "Removing remaining Office Crap"
+.\O15CTRRemove.diagcab
